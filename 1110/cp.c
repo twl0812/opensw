@@ -4,6 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<errno.h>
+#include<unistd.h>
 #define BUF_SZ 64
 int main(int argc,char *argv[]) //argc num,argv parameter
 {
