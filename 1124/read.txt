@@ -21,11 +21,12 @@ l->list
 b range->break ->breakpoint
 r ->run
 n ->next
-key(enter) ->다음으로 감
+key(enter) ->이전명령어가 실행된다.
 s ->step
 print var_name 변수이름을 볼 수 있음
 bt ->stack을 보여준다.
 quit ->멈춤
+ctal c 중지
 ctal d->나감
 
 배경지식: 스택영역 ->함수를 부르면 스택에 함수가 들어간다.
